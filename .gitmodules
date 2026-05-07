@@ -1,0 +1,3 @@
+[submodule "naverBooking"]
+	path = naverBooking
+	url = https://github.com/lunaStratos/naverbooking.git
