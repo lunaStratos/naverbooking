@@ -1,0 +1,61 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller build output
+build/
+dist/
+*.manifest
+
+# Local config / secrets
+.naver_reservation_check.json
+*.local.json
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Playwright (로컬 캐시는 사용자 홈에 있지만, 프로젝트 내 캐시 방지)
+ms-playwright/
+playwright-report/
+test-results/
+
+.cloude
